@@ -13,3 +13,9 @@
 - `paru` 同`paru -Syu` 同步库，并更新本地的软件到最新版本 
 - `paru -Rc zsh` 卸载并清理`zsh`
 - `paru zsh` 搜索并安装`zsh`
+
+## clash
+
+[clash](./clash.md)是使用`Go`语言实现的一个多平台代理客户端。
+
+目前`clash`是其核心实现，并没有UI界面。

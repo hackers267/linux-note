@@ -28,3 +28,4 @@
 
 - [ArchLinux](./archlinux/ReadMe.md)
   - [Paru](./archlinux/paru.md) 
+  - [clash](./archlinux/clash.md)
