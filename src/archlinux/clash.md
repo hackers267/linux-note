@@ -63,3 +63,9 @@ ExecStart=/usr/bin/clash -d /etc/clash # /usr/bin/clash 为绝对路径，请根
 [Install]
 WantedBy=multi-user.target
 ```
+
+## QA
+
+* start Redir UDP listener failed error=operation not permitted
+
+ sudo setcap cap net bind service,cap net dmin+ep /usr/bin/clash
