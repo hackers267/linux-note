@@ -37,3 +37,7 @@
 ## dunst
 
 [dunst](./dunst.md)是一个自定义的通知器。
+
+## picom
+
+[picom](./picom.md)是一个桌面混合器，其主要作用就是对桌面窗口进行特效设置。
