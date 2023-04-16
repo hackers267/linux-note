@@ -11,3 +11,11 @@
 ```shell
 paru -S screenkey
 ```
+
+## 图片查看器
+
+在`linux`中，可以使用`feh`作为图片查看器。
+
+```shell
+paru -S feh
+```
