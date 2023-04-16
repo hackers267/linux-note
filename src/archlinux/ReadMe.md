@@ -33,3 +33,7 @@
 ## polybar
 
 [polybar](./polybar.md)是一个linux中的自定义状态栏工具。
+
+## dunst
+
+[dunst](./dunst.md)是一个自定义的通知器。
