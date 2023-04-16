@@ -28,4 +28,8 @@
 
 ## screenkey
 
-[screenkey](./screenkey)是linux中的一个键盘操作记录器。
+[screenkey](./screenkey.md)是linux中的一个键盘操作记录器。
+
+## polybar
+
+[polybar](./polybar.md)是一个linux中的自定义状态栏工具。
