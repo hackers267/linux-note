@@ -19,3 +19,7 @@ paru -S screenkey
 ```shell
 paru -S feh
 ```
+
+## zotero
+
+`zotero`是linux中的一个文献管理工具。
