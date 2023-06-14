@@ -20,23 +20,23 @@ jq [options] --jsonargs <jq filter> [JSON_TEXTS...]
 
 ## 选项[options]
 
--c                紧凑而不是漂亮的输出
--n                使用`null`作为单位输入值
--e                根据输出设置退出状态代码
--s                将所有输入读取到数组中；应用过滤器
--r                输出原始字符串，而不是JSON文本
--R                输出原始字符串，而不是JSON文本
--C                为JSON着色
--M                单色(不要为JSON着色)
--S                在输出对象上排序对象
---tab             使用制表符进行缩进
---arg a v         将变量$a设置为value<v>
---argjson a v     将变量$a设置为JSON value<v>
---slurpfile a f   将变量$a设置为从<f>读取的JSON文本数组
---rawfilw a f     将变量$a设置为包含<f>内容的字符串
---args            其余参数是字符串，而不是文件
---jsonargs        其余参数是JSON参数，而不是文件
---                终止参数处理
+* -c                紧凑而不是漂亮的输出
+* -n                使用`null`作为单位输入值
+* -e                根据输出设置退出状态代码
+* -s                将所有输入读取到数组中；应用过滤器
+* -r                输出原始字符串，而不是JSON文本
+* -R                输出原始字符串，而不是JSON文本
+* -C                为JSON着色
+* -M                单色(不要为JSON着色)
+* -S                在输出对象上排序对象
+* --tab             使用制表符进行缩进
+* --arg a v         将变量$a设置为value<v>
+* --argjson a v     将变量$a设置为JSON value<v>
+* --slurpfile a f   将变量$a设置为从<f>读取的JSON文本数组
+* --rawfilw a f     将变量$a设置为包含<f>内容的字符串
+* --args            其余参数是字符串，而不是文件
+* --jsonargs        其余参数是JSON参数，而不是文件
+* --                终止参数处理
 
 ## 使用示例
 
