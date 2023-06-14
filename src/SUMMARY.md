@@ -10,6 +10,7 @@
 - [命令行](./cli/ReadMe.md)
   - [基础命令](./cli/base.md)
   - [时区](./cli/timezone.md)
+  - [jq](./cli/jq.md)
 # 更现代的命令行工具
   - [et](./cli/erdtree.md)
   - [bat](./cli/bat.md)
