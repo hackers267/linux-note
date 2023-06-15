@@ -28,3 +28,5 @@ makepkg -si
 - *paru -c* 删除没有依赖的包
 - *paru -Qs* 显示本机的已经安装的包
 - *paru -Qs foo* 显示本机中已经安装的包中有*foo*有关的包
+- *paru -Scc*  删除本地没有`git`控制的缓存包(以交互方式)
+- *paru -Sccd*  删除本地所有的缓存包(以交互方式)
