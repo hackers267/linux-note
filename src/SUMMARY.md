@@ -5,6 +5,7 @@
 - [基础命令](./base/ReadMe.md)
   - [用户管理](./base/user.md)
   - [组管理](./base/group.md)
+  - [定时任务](./base/cron.md)
 
 # 命令行
 
