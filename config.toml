@@ -6,6 +6,12 @@ compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+theme = "blow"
+default_language = "zh"
+title = "Linux"
+taxonomies = [
+  { name = "tags", rss = true, feed = true },
+]
 
 [markdown]
 # Whether to do syntax highlighting
@@ -14,3 +20,31 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+enable_sidebar = false
+enable_multilingue = false
+enable_search = false
+
+[extra.navbar]
+title = "Linux"
+items = [
+  { lang = "zh", links = [{ url = "/", name = "主页" }, { url = "/post", name = "文章" }, { url = "/tags", name = "标签" }] },
+]
+
+[extra.index]
+title = "Linux"
+image = "https://maker.pro/storage/vDDbslT/vDDbslTDGt8itE6C6f8K3X8FPFQenq5iOl1ZfW8z.jpeg"
+image_alt = "Linux"
+
+[extra.social]
+gitlab = false
+github = "https://github.com/hackers267"
+twitter = false
+linkedin = false
+stackoverflow = false
+telegram = false
+email = "silence_zhpf@aliyun.com"
+
+[extra.default_author]
+name = "silence_zhpf"
+avatar = "https://avatars.githubusercontent.com/u/22020318?v=4"
+avatar_alt = "silence_zhpf"
