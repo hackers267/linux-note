@@ -11,6 +11,7 @@ default_language = "zh"
 title = "Linux"
 taxonomies = [
   { name = "tags", rss = true, feed = true },
+  { name = "categories", rss = true, feed = true },
 ]
 
 [markdown]
@@ -27,7 +28,7 @@ enable_search = false
 [extra.navbar]
 title = "Linux"
 items = [
-  { lang = "zh", links = [{ url = "/", name = "主页" }, { url = "/post", name = "文章" }, { url = "/tags", name = "标签" }] },
+  { lang = "zh", links = [{ url = "/", name = "主页" }, { url = "/post", name = "文章" }, { url = "/tags", name = "标签" }, { url = "/categories", name = "分类" }] },
 ]
 
 [extra.index]
