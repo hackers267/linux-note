@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://silence-zhpf.github.io/linux-note"
+base_url = "https://hackers267.github.io/linux-note"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
