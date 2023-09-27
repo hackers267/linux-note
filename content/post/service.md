@@ -69,3 +69,31 @@ WantedBy=multi-user.target
 ```
 
 配置文件中的`WorkingDirectory`字段用于配置命令当前的工作目录，以解决在启动命令后程序中使用相对路径的问题。
+
+### 自定义nginx服务
+
+如果我们是通过安装包或是安装助手来安装的nginx，那么就可能已经为我们生成了一个linux服务，但是，如果我们是通过源码编译的方式来安装的`nginx`的话。如果想把nginx包装成一个linux服务，就需要我们自定义服务了。参考文件如下：
+
+```service
+[Unit]
+Description=A high performance web server and a reverse proxy server
+After=network-online.target remote-fs.target nss-lookup.target
+Wants=network-online.target
+
+[Service]
+Type=forking
+PIDFile=/run/nginx.pid
+PrivateDevices=yes
+PrivateTmp=true
+SyslogLevel=err
+
+ExecStart=/usr/bin/nginx
+ExecReload=/usr/bin/nginx -s reload
+Restart=on-failure
+KillMode=mixed
+KillSignal=SIGQUIT
+TimeoutStopSec=5
+
+[Install]
+WantedBy=multi-user.target
+```
