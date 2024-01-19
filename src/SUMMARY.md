@@ -27,11 +27,14 @@
 
 - [配置](./settings/ReadMe.md)
   - [触摸板](./settings/touchpad.md)
+  - [Systemd-Boot](./settings/systemd-boot.md)
 
 # 工具
 
 - [工具](./tools/ReadMe.md)
   - [Mutt](./tools/mutt.md)
+- [Samba](./samba/ReadMe.md)
+
 
 # ArchLinux
 
