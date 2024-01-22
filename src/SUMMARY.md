@@ -6,6 +6,7 @@
   - [用户管理](./base/user.md)
   - [组管理](./base/group.md)
   - [定时任务](./base/cron.md)
+  - [权限](./base/permission.md)
 
 # 命令行
 
