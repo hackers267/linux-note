@@ -43,3 +43,8 @@
 - [ArchLinux](./archlinux/ReadMe.md)
   - [Paru](./archlinux/paru.md) 
   - [clash](./archlinux/clash.md)
+
+# Wayland
+
+- [Wayland](./wayland/ReadMe.md)
+ - [软件](./wayland/soft.md)
