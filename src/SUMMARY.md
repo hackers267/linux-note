@@ -33,7 +33,8 @@
 # 工具
 
 - [工具](./tools/ReadMe.md)
-  - [Mutt](./tools/mutt.md)
+  - [Mutt](./tools/mutt/ReadMe.md)
+    - [搭配方案](./tools/mutt/scheme.md)
 - [Samba](./samba/ReadMe.md)
 
 
