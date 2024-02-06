@@ -71,4 +71,27 @@ sendmail 是 *linux* 系统一般会自带，在 *mutt* 中不需要特殊配置
 
 ## 方案2
 
+### maildrop
+
+
+在 `ArchLinux` 上要使用 `maildrop`, 需要安装 `courier-maildrop` :
+
+```
+  paru -S courier-maildrop
+```
+
+在安装完 `couries-maildrop` 后，需要在 */etc/maildroprc* 中设置 **DEFAULT** 变量，让 *maildrop* 把邮件默认转发到指定路径的邮箱中。比如设置为 `DEFAULT=$HOME/Mail/inbox`, 当没有设置过滤的时候， *maildrop* 会把邮件存储在指定的位置。
+
+#### maildrop 设置过滤规则
+
+可以通过在 `$HOME/.mailfilter` 文件中设置过滤规则来把邮件分别存储到不同的邮箱中。比如以下设置：
+
+```
+if ( /^From:\s+(.*)@work.com.cn/ ) 
+	to "$HOME/Mail/work"
+
+
+if ( /^From: fcron <user@mac>/ ) 
+	to "$HOME/Mail/bot"
+```
 
