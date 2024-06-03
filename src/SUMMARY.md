@@ -23,6 +23,7 @@
   - [lsd](./cli/lsd.md)
   - [ripgrep](./cli/ripgrep.md)
   - [zoxide](./cli/zoxide.md)
+  - [fish](./fish/ReadMe.md)
 
 # 设置
 
