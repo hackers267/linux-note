@@ -11,6 +11,7 @@
 # 命令行
 
 - [命令行](./cli/ReadMe.md)
+  - [scp](./cli/scp.md)
   - [基础命令](./cli/base.md)
   - [时区](./cli/timezone.md)
   - [jq](./cli/jq.md)
