@@ -33,6 +33,11 @@ echo "hello,This email from mutt" | mutt -s "Example" -a ./example.txt -- hello@
 - r 回复当前邮件
 - &lt;Tab&gt; 跳转到下一个未读邮件
 - &lt;Enter&gt; 查看邮件内容
+- D 删除符合某个模式的邮件
+- t 标记当前条目
+- T 标记符合某个模式的邮件
+- Ctrl+T 取消标记符合某个模式的邮件
+- l 过滤符合某个模式的邮件
 
 ## 邮件标记
 
